@@ -10,4 +10,4 @@ const app = createApp(App);
 app.use(router);
 app.use(pinia);
 
-app.mount('#app');
+app.mount('#root');
