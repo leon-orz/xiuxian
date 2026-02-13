@@ -1,32 +1,25 @@
 {
   "name": "xiuxian",
-  "version": "1.0.0",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "rsbuild build",
-    "dev": "rsbuild dev --open",
-    "format": "prettier --write .",
-    "preview": "rsbuild preview"
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "pinia": "^3.0.4",
-    "vue": "^3.5.26",
-    "vue-router": "^4.6.4"
+    "vue": "^3.5.25"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.7.1",
-    "@rsbuild/plugin-vue": "^1.2.2",
-    "@unocss/postcss": "^66.5.12",
-    "@unocss/reset": "^66.5.12",
-    "prettier": "^3.7.3",
-    "typescript": "^5.9.3",
-    "unocss": "^66.5.12",
-    "unplugin-auto-import": "^20.3.0",
-    "unplugin-vue-components": "^30.0.0",
-    "unplugin-vue-router": "^0.19.2"
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.2",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0-beta.13",
+    "vue-tsc": "^3.1.5"
   },
-  "volta": {
-    "node": "24.12.0"
+  "overrides": {
+    "vite": "^8.0.0-beta.13"
   }
 }
