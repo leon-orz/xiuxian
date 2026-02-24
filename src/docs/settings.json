@@ -1,0 +1,131 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 24,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.letterSpacing": 0,
+  "editor.mouseWheelZoom": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "all",
+  "editor.guides.bracketPairs": "active",
+  "editor.smoothScrolling": true,
+  "editor.rulers": [100, 150],
+
+  "files.autoGuessEncoding": true,
+  "files.encoding": "utf8",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.meta": true,
+    "**/*.suo": true,
+    "**/*.ntvs*": true,
+    "**/*.njsproj": true,
+    "**/*.sln": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.o": true,
+    "**/*.eot": true,
+    "**/*.ttf": true,
+    "**/*.woff": true,
+    "**/*.woff2": true,
+    "**/*.svg": true,
+    "**/*.png": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.gif": true,
+    "**/*.ico": true,
+    "**/*.lock": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  },
+
+  // ========== 终端字体优化 ==========
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.letterSpacing": 0,
+  // ========== 终端显示优化 ==========
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+
+  // ========== 调试控制台字体优化 ==========
+  "debug.console.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "debug.console.fontSize": 13,
+  "debug.console.lineHeight": 1.5,
+  "debug.console.wordWrap": true,
+  // ========== 调试体验优化 ==========
+  "debug.internalConsoleOptions": "neverOpen",
+  "debug.console.closeOnEnd": false,
+  "debug.console.collapseIdenticalLines": true,
+  "debug.console.historySuggestions": true,
+  "debug.showInStatusBar": "always",
+
+  // ========== 额外优化设置 ==========
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "debug.focusWindowOnBreak": true,
+  "debug.openExplorerOnEnd": true,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ========== 忽略未知的 at 规则警告 ==========
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "chat.disableAIFeatures": true
+}
